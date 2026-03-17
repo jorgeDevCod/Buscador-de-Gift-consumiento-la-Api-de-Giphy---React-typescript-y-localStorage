@@ -6,7 +6,7 @@ import { PreviousSearches } from "./Gifs/components/PreviousSearches"
 import { LoadingSpinner } from "./shared/components/LoadingSpinner"
 import { GifGrid } from "./Gifs/components/GifGrid"
 import { useLocalStorage } from "./Gifs/hooks/useLocalStorage"
-import { useGifSearch } from "./Gifs/hooks/UseGifSearch"
+import { useGifSearch } from './Gifs/hooks/useGifSearch'
 
 export const GifsApp = () => {
    const { app, errorStl, empty } = styles

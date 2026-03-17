@@ -1,6 +1,5 @@
 import styles from "./PreviousSearches.module.css"
 
-
 interface Props {
   searches: string[];
   onTermClicked: (term: string) => void
