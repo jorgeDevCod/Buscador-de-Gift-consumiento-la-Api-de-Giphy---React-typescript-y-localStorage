@@ -1,0 +1,89 @@
+/* PreviousSearches.module.css */
+.history {
+    margin-bottom: 16px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.chip {
+    background: rgba(124, 106, 255, 0.12);
+    border: 1px solid rgba(124, 106, 255, 0.3);
+    border-right: none;
+    /* ← se fusiona con la X */
+    color: #a78bfa;
+    border-radius: 999px 0 0 999px;
+    /* ← redondo solo a la izquierda */
+    padding: 4px 10px 4px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.chip:hover {
+    background: rgba(124, 106, 255, 0.25);
+}
+
+.deleteBtn {
+    background: rgba(124, 106, 255, 0.12);
+    border: 1px solid rgba(124, 106, 255, 0.3);
+    border-left: none;
+    /* ← se fusiona con el chip */
+    color: #a78bfa;
+    border-radius: 0 999px 999px 0;
+    /* ← redondo solo a la derecha */
+    padding: 4px 10px 4px 6px;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.deleteBtn:hover {
+    background: rgba(248, 113, 113, 0.15);
+    color: #f87171;
+    border-color: rgba(248, 113, 113, 0.3);
+}
+
+.historyHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.historyLabel {
+    font-size: 12px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.resetBtn {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.15s;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.resetBtn:hover {
+    color: #f87171;
+}

@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    padding: 48px 0 8px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff 30%, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 8px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+}
